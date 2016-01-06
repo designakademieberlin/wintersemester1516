@@ -9,6 +9,6 @@ Probiert bis zum nächsten Termin ein paar Editoren aus und behaltet euren Favor
 > **Dokumente:**
 
 > - [Linkliste (23 KB, PDF)](https://github.com/designakademieberlin/wintersemester1516/blob/master/BAWD1%20Programmlehre/160105/linkliste.pdf)
-> - [Vorlesung (636 KB, PDF)](https://github.com/designakademieberlin/wintersemester1516/blob/master/BAWD1%20Programmlehre/160105/linkliste.pdf)
+> - [Vorlesung (636 KB, PDF)](https://github.com/designakademieberlin/wintersemester1516/blob/master/BAWD1%20Programmlehre/160105/vorlesung_05012016.pdf)
 
 Viel Spaß!
