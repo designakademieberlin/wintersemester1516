@@ -13,7 +13,11 @@ body {
 }
 
 .frame header {
-    background-color: orange;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 20% auto;
+    height: 10em;
     flex-basis: 100%;
 }
 
