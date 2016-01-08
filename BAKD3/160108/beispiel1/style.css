@@ -14,7 +14,7 @@ body {
 
 .frame header {
     background-color: orange;
-    
+    flex-basis: 100%;
 }
 
 .frame article {
