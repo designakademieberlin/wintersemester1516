@@ -1,0 +1,28 @@
+/* Generals */
+*{
+    
+}
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+
+}
+
+img {
+	border: none;
+}
+
+header,article,footer,aside,section {
+    display: block;
+}
+
+/************* EO Generals *********/
+
+.box {
+    height: 50%;
+    width: 40%;
+    background-color: orange;
+}
