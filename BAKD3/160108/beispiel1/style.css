@@ -6,29 +6,32 @@ body {
     display: flex;
 }
 
+.frame > * {
+    flex: 1 auto;
+}
 
 .frame header {
     background-color: orange;
-    flex: 1;
+    
 }
 
 .frame article {
     background-color: yellow;
-     flex: 2;
+     
 }
 
 .frame .extra1 {
     background-color: aqua;
-     flex: 1;
+     
 }
 .frame .extra2 {
     background-color: blueviolet;
-     flex: 1;
+    
 }
 
 .frame footer {
     background-color: #333;
-     flex: 1;
+    
 }
 
 
