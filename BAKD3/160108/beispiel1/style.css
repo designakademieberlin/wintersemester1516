@@ -4,9 +4,11 @@ body {
 
 .frame {
     display: flex;
+    flex-flow: row wrap;
 }
 
 .frame > * {
+    padding: 1em;
     flex: 1 auto;
 }
 
