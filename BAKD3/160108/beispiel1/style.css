@@ -17,8 +17,9 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 20% auto;
-    height: 10em;
+    height: 5em;
     flex-basis: 100%;
+    
 }
 
 .frame header .logo {
@@ -30,6 +31,10 @@ body {
 .frame article {
     background-color: yellow;
      
+}
+
+.frame nav{
+    background-color: azure;
 }
 
 .frame .extra1 {
@@ -46,4 +51,26 @@ body {
     
 }
 
+@media (orientation:portrait) { 
+    body {background-color: orange;}
+    .frame header {
+        order:1
+    }
+    .frame nav {
+        order:5;
+        flex-basis: 100%;
+    }    
+    .frame article {
+        order:2;
+    } 
+    .frame .extra1 {
+        order:3
+    }  
+    .frame .extra2 {
+        display: none;
+    }  
+    .frame footer {
+        order:6;
+    }    
+}
 
