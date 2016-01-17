@@ -1,0 +1,44 @@
+/* Generals */
+
+html {}
+
+body {
+	margin: 50px;
+}
+
+img {
+	border: none;
+}
+
+/************* EO Generals *********/
+
+.mainmenu, .mainmenu ul {
+	padding: 0;
+	list-style: none;
+	
+}
+
+.mainmenu ul {
+	display: none;
+}
+
+.mainmenu li:hover ul {
+	display: block;
+}  
+
+.mainmenu a {
+	text-decoration: none;
+	color:white;
+	background-color: #333;
+	padding: 0.5rem;
+	display: block;
+	border-bottom: 1px #666 solid;
+}
+
+.mainmenu a:hover {
+	background-color: #666;
+}
+
+.mainmenu ul a {
+	padding-left: 2rem;
+}
