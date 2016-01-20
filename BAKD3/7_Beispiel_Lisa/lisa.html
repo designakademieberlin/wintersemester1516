@@ -5,23 +5,67 @@
 		<meta charset="utf-8">
 		<title>Flex Intro</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
-		
+
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        
+        
+    <script type="text/javascript">
+
+        
+        jQuery(document).ready(function() {
+
+
+                $('a').click(function(){
+                    $('html, body').animate({
+                        scrollTop: $( $.attr(this, 'href') ).offset().top
+                    }, 2000);
+                    return false;
+                });
+	
+  });
+        
+    
+        
+    </script>    
+        
+        
 	</head>
+
 	<body>
 		
-        <section class="box inhalt1">
-            
-            Hier die Startsituation
-
+        <nav class="mainmenu">
+            <div class="center">
+                <a href="#kiste1">Zu Kiste 1</a>
+                <a href="#kiste2">Zu Kiste 2</a>
+                <a href="#kiste3">Zu Kiste 3</a>
+                <a href="#kiste4">Zu Kiste 4</a>
+          
+            </div>
+        </nav>
         
+        <section id="kiste1" class="box inhalt1">
+            Hier die Startsituation 
         </section>
+        <aside class="next"><a href="#kiste2">Pfeil zu 2</a></aside>
 
-        <section class="box inhalt2">
-            
+        <section id="kiste2"  class="box inhalt2">
             Hier die zweite Section
+        </section>
+         <aside class="next"><a href="#kiste3">Pfeil zu 2</a></aside>
+
+        <section id="kiste3"  class="box inhalt3">
+            Hier die dritte Section
+        </section> 
+        
+                <aside class="next"><a href="#kiste4">Pfeil zu 2</a></aside>
 
         
-        </section>
+         <section id="kiste4"  class="box inhalt4">
+            Hier die dritte Section
+        </section>         
+            <aside class="next"><a href="#kiste1">Pfeil zu 2</a></aside>
+    
         
 		
 	</body>
