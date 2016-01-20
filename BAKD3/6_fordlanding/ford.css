@@ -1,0 +1,42 @@
+/* Generals */
+
+html {}
+
+body {
+    background-color: #000;
+    background-image: url(bkgr1.jpg);
+    background-size: 100% auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    
+}
+
+img {
+	border: none;
+}
+
+/************* EO Generals *********/
+
+.frame {
+    max-width: 60em;
+    height: 1000px;
+    margin: 0 auto 0 auto;
+}
+
+.spalte2 {
+    
+    background-color: aquamarine;
+    
+}
+
+header {
+    height: 35%;
+    #background-color: red;
+}
+
+.spalte2 section {
+    float: left;
+}
+.spalte2 figure {
+    float: right;
+}
