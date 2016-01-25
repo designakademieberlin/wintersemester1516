@@ -1,0 +1,39 @@
+/* Generals */
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+	border: none;
+}
+
+
+main {
+    height: 90%;
+    background-color: orange;
+}
+
+.faces {
+    width: 20%;
+    float: left;
+    height: 33.333333%;
+    background-color: chartreuse;
+}
+
+.text {
+    position: fixed;
+    width: 20%;
+    background-color: black;
+    height: 100%;
+    right: 0;
+}
+
+video {
+    height: 100vh;
+}

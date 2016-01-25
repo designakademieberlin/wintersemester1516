@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+	
+	<head>
+		<meta charset="utf-8">
+		<title>Flex Intro</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        
+        <script type="text/javascript">
+
+
+
+        </script>
+        
+        
+	</head>
+
+	<body>
+		
+    <main>
+        
+        <div class="text">
+        
+                Voruteile<br><br><br>
+            bart<br>
+            Religion<br>
+            Bombe
+            <button id="play1">Falsch</button>
+            <button id="play2">Falsch</button>
+            <button id="play3">Rischdich</button>
+           
+            
+        </div>
+        
+        <video id="video1">
+                    <source src="video.mp4" type="video/mp4"> 
+        </video>
+        
+        
+        
+    </main>
+        
+   
+        
+        <script>
+    
+                function vidplay() {
+                   var video = document.getElementById("video1");
+                    video.setAttribute('src', 'video.mp4');            
+
+                   if (video.paused) {
+                      video.play();
+                   } else {
+                      video.pause();
+                   }
+                }
+            
+            
+                function vidtrue() {
+                var video = document.getElementById("video1");
+                video.setAttribute('src', 'video2.mp4');            
+
+                   if (video.paused) {
+                      video.play();
+                   } else {
+                      video.pause();
+                   }
+                }            
+            
+            
+            $('#play1').on("click", function(){
+                vidplay(); 
+            });
+            $('#play2').on("click", function(){
+                vidplay(); 
+            });      
+             $('#play3').on("click", function(){
+                vidtrue(); 
+            });      
+                      
+        </script>
+    
+		
+	</body>
+	
+	
+</html>
