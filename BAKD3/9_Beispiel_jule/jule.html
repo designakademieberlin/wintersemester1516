@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+	
+	<head>
+		<meta charset="utf-8">
+		<title>Flex Intro</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+        
+        
+	</head>
+
+	<body>
+		
+     
+        <section class="box content1">
+        
+            hier kommt bild usw. rein <span class="marker">wert</span>
+        </section>
+        
+        <section class="box blackbox logoanimation">
+        
+           das ist der schwarze Tod 
+        </section>
+        
+        <section class="box content2">
+        
+           ich bin der inhalt ganz unten
+        </section>        
+        
+    
+        
+            
+        <script>
+        
+            
+           // alert(jQuery(window).height());
+            
+            jQuery(document).ready(function() {
+
+
+                    $(function(){
+                        $(window).scroll(function() {
+
+                            var fenster = jQuery(window).height(); // fenster höhe in PX
+                            var wert = $(document).scrollTop(); // die Scollposition in PX
+                            var fensterindex = wert / fenster; // Position  durch fensterhöhe
+                            var sizer = 20-fensterindex*3;
+                            var smallsizer = sizer-15;
+                            $('.marker').html(smallsizer);
+
+                            if (sizer < 15) {
+                                
+                                $(".blackbox").css({"background-size": "auto "+smallsizer+"%, 100% 100%"});
+                            }
+
+                        }).scroll();
+                    })
+            
+
+            
+         })
+             
+            
+        </script>
+        
+        
+        
+	</body>
+	
+	
+</html>

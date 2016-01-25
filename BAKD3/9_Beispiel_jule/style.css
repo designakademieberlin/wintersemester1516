@@ -1,0 +1,60 @@
+/* Generals */
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+	border: none;
+}
+
+/************* EO Generals *********/
+
+
+
+/************* EO headroom *********/
+
+
+
+.box {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.content1 {
+        background-color: beige;
+        position: fixed;
+        z-index: 0;
+        background-image: url(logo1.png);
+        background-position: center top;
+        background-size: auto 20%;
+    
+}
+
+.blackbox {
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    background-image: url(logo2.png),url(bkgr.png);
+    background-position: center top, center top;
+    background-size: auto 20%, 100% 100%;
+    background-attachment: fixed;
+}
+
+.logoanimation {
+}
+
+
+.content2 {
+    
+    background-color: red;
+    position: absolute;
+    z-index: 1;
+    top: 200%;
+    height: 80%;
+}

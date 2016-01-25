@@ -1,0 +1,375 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{margin:0; font-family: 'PT Sans Narrow', sans-serif;}
+h1,h2,h3,h4,h5,h6,h7,h8,h9,h10,h11,h12,h13,h14 {color:white; position:absolute;}
+
+body { 
+height:100%;
+width:100%;
+margin:0;
+padding:0;
+background-color: black;
+background-size: 100% auto;
+z-index: 0;
+}
+
+.path {
+  #stroke-dashoffset: 1000;
+  #stroke-dasharray: 1000;
+}
+
+#.fly {
+position: fixed;
+z-index: 999999;
+color:white;
+}
+
+/* bis hier GLobal Rules */
+
+.nav a {
+margin-right: 15px;
+height: 1em;
+font-size: 12px ;
+background-color: none;
+color: rgba(255,255,255,1.00);
+text-decoration:none;
+text-align: left;
+text-align-last:left;
+margin-top: 0.5em;
+}
+nav { width: 100%;
+height: 1.7em;
+background-color: rgba(10,6,18,1.00);
+position:fixed;
+margin-right:0%;
+margin-left: 0%;
+text-align:center;
+z-index: 999999999999999;
+}
+
+.box { /* für alle Boxen gilt das hier */
+height:800px;
+width:100%;
+#background-color:blue;
+background-size:cover;
+}
+.box .content {
+position:absolute;
+/*width:1000px;*/
+height:600px;
+margin-left:auto;
+margin-right:auto;
+#background-color:white;
+position:relative;
+}
+.box .width1000 {
+	width:1000px;
+}
+
+.box .content h1{ /* naviüberschrift*/
+font-size:150px;
+right:120px;
+top:0.5px;
+text-align:right;
+}
+
+
+.box .content h2 { /* inhalt*/
+font-size:14px;
+width:500px;
+right:120px;
+top:260px;
+text-align:right;
+}
+
+
+
+.box .content h3 { /* nummerierung*/
+font-size:14px;
+width:200px;
+right: 967px;
+top: 186px;
+text-align:right;
+}
+.box .content h4 { /* nummerierung mitte*/
+font-size:14px;
+width:200px;
+right: 480px;
+top: 235px;
+text-align:right;
+}
+.box .content h5{ /* naviüberschrift mitte*/
+font-size:100px;
+right:400px;
+top:170px;
+text-align:right;
+}
+
+.box .content h6 
+{ font-size:14px;
+width:300px;
+left: 790px;
+top: 130px;
+text-align:left;}
+
+.box .content h14 /* inhalt shop */
+{ font-size:14px;
+width:300px;
+left: 590px;
+top: 150px;
+text-align:left;}
+
+.box .content h8 { /* inhalt shop titel*/
+font-size:20px;
+width:300px;
+left: 590px;
+top: 97px;
+text-align:left;
+}
+.box .content h9 { /* inhalt shop knopf grau1*/
+color:rgba(0,0,0,1.00);
+font-size:14px;
+width:300px;
+left: 611px;
+top: 323px;
+z-index: 999999999;
+text-align: left;
+}
+.box .content h10 { /* inhalt shop knopf grau2*/
+color: rgba(0,0,0,1.00);
+font-size:14px;
+width:300px;
+left: 626px;
+top: 354px;
+z-index: 999999999;
+text-align: left;
+}
+.box .content h11 { /* inhalt shop knopf blau*/
+color: rgba(0,0,0,1.00);
+font-size:14px;
+width:300px;
+left: 611px;
+top: 434px;
+z-index: 999999999;
+text-align: left;
+}
+.box .content h12 { /* beschriftung in rechnung shop*/
+font-size:14px;
+width:200px;
+left: 48px;
+top: 202px;
+text-align:right;
+}
+.box .content h13 { /* text rechnung*/
+font-size:14px;
+width:200px;
+left: 190px;
+top: 202px;
+text-align:left;
+}
+
+.box .content svg {
+position:absolute;}
+
+.part1 {
+background-image: url(bilder_fertig/bild_01.jpg);
+}
+.part2 {
+background-image: url(bilder_fertig/bild_02.jpg);
+}
+.part3 {
+#background-color:rgba(0,255,255,1.00);
+}
+.part3 video {
+position:absolute;
+width:100%;
+z-index:-10;
+}
+.part3 h1 {
+margin-right:100;
+}
+.part4 {
+background-image: url(bilder_fertig/bild_03%20Kopie.jpg);
+}
+.part5 {
+#background-image: ;
+}
+.part5 video {
+position:absolute;
+width:100%;
+z-index:-10;
+}
+.part6 {
+background-image: url(bilder_fertig/bild_04.jpg);
+}
+.part7 { /*Lookbook*/
+#background-image:;}
+
+.part7 video {
+position:absolute;
+width:100%;
+z-index:-10;
+}
+.part8 {
+background-image: url(bilder_fertig/bild_05.jpg);
+}
+.part9 {
+background-image: url(bilder_fertig/bild_09.jpg);
+}
+.part10 {
+background-image: url(bilder_fertig/bild_07.jpg);
+}
+.part11 {
+background-image: url(bilder_fertig/bild_06.jpg);
+}
+.part11.box {
+display:block;
+}
+.part12 {
+background-image: url(bilder_fertig/hintergrund_shop_rechnung.jpg);
+}
+.Bild{
+margin:0;
+#padding:0;
+position:absolute;
+height:752px;
+width:500px;
+top: 270px;
+left: 360px;
+}
+.shopbox {
+height: 400px;
+width: 280px;
+background-color: rgba(16,201,7,1.00);
+position: absolute;
+z-index: 99999999;
+left: 280px;
+top: 100px;
+background-image: url(shop_fotos/vorne.jpg);
+background-position: 45% 7%;
+background-size:auto;
+background-repeat:no-repeat;
+}
+.shopbox2 {
+height: 175px;
+width: 130px;
+background-color: rgba(16,201,7,1.00);
+position: absolute;
+z-index: 99999999;
+left: 280px;
+top: 520px;
+background-image: url(shop_fotos/button.jpg);
+background-size: 50%, 50%;
+background-position: left;
+background-size:auto;
+background-repeat:no-repeat;
+}
+.shopbox3 {
+height: 175px;
+width: 130px;
+background-color: rgba(16,201,7,1.00);
+position: absolute;
+z-index: 99999999;
+left: 430px;
+top: 520px;
+background-image: url(shop_fotos/r%C3%BCcken.jpg);
+background-position: 40%;
+background-size:auto;
+background-repeat:no-repeat;
+}
+.shopbox4 {
+height: 400px;
+width: 700px;
+background-color: rgba(78,77,77,1.00);
+position: absolute;
+left: 370px;
+top: 190px;
+background-position: 45% 7%;
+background-size:auto;
+background-repeat:no-repeat;
+}
+.knopf { 
+    left: 590px;
+top: 320px;
+position: absolute;
+z-index: 99999999;}
+.knopf2 { 
+    left: 590px;
+top: 350px;
+position: absolute;
+z-index: 99999999;}
+.knopf3 { 
+    left: 590px;
+top: 430px;
+position: absolute;
+z-index: 99999999;}
+ 
+
+
+.logo{ /*Logo rechts*/
+display: block;
+
+hight: 100%;
+left: 885px;
+top: 195px;
+position:absolute;
+ }
+
+.logo2{ /*Logo normal links*/
+
+right: 931px;
+top: 169px;
+position:absolute;
+#opacity: 0;
+ }
+ 
+.logo3{  /*logo mitte*/
+
+right: 443px;
+top: 220px;
+position:absolute;
+ }
+ 
+
+ 
+
+/*.content .motiv1 {
+background-image: url(Lookbook/DSC_0220.jpg);
+background-size: cover;
+background-position: center center;
+}
+.content .motiv2 {
+background-image: url(Lookbook/DSC_0260.jpg);
+background-size: cover;
+background-position: center center;
+}
+.content .motiv3 {
+background-image: url(Lookbook/DSC_0326.jpg);
+background-size: cover;
+background-position: center center;
+}
+.content .motiv4 {
+background-image: url(Lookbook/cathy.jpg);
+background-size: cover;
+background-position: center center;
+}
+.content .motiv5 {
+background-image: url(Lookbook/alissia01.jpg);
+background-size: cover;
+background-position: center center;
+}
+.content .slide {
+height:100%;
+width:100%;
+position:relative;
+z-index:-20;}*/
+
+#.footer {height: 70px;
+font-size:10px;
+color:rgba(193,185,186,1.00);
+background-color:black;
+position: absolute;
+width:100%;
+text-align: center;
+}
