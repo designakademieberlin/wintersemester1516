@@ -1,0 +1,55 @@
+/* Generals */
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+	border: none;
+}
+
+/************* EO Generals *********/
+
+header {
+    height: 20%;
+    background-color: orange;
+}
+
+.shop {
+    height: 70%;
+    background-color: #ccc;
+}
+
+.shop main {
+    width: 70%;
+    float: left;
+    border-right: 1px #000 solid;
+
+}
+.shop aside {
+    width:28%;
+float: right;
+}
+
+.form label {
+    width: 40%;
+    display: inline-block;
+}
+.form input {
+    width: 40%;
+    border: 1px blue solid;
+}
+.form div {
+    margin-bottom: 1em;
+}
+
+
+footer {
+    height: 10%;
+    background-color: #333;
+}
